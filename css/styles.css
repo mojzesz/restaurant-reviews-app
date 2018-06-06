@@ -374,19 +374,7 @@ nav h1 a {
     font-size: 9pt;
 }
 
-/* ====================== ARIA ====================== */
-
-#neighborhoods-select:focus {
-    border: 3px solid;
-    border-color: #ffa500;
-}
-
-#cuisines-select:focus {
-    border: 3px solid;
-    border-color: #ffa500;
-}
-
-/* ====================== MEDIA QUERIES ====================== */
+/* ====================== Media Queries ====================== */
 
 @media screen and (max-width: 768px) {
     
@@ -407,3 +395,15 @@ nav h1 a {
         top: 500px;
     }
 };
+
+/* ====================== ARIA ====================== */
+
+#neighborhoods-select:focus {
+    border: 3px solid;
+    border-color: #ffa500;
+}
+
+#cuisines-select:focus {
+    border: 3px solid;
+    border-color: #ffa500;
+}
